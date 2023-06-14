@@ -1,0 +1,72 @@
+:root{
+  --primary: #b6895b;
+  --bg: #010101;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border : none;
+  text-decoration: none;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg);
+  color : white;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color: #010101;
+  border-bottom: 1px solid #513c28;
+  position : fixed;
+  top : 0;
+  left : 0;
+  right : 0;
+  z-index: 9999;
+}
+
+.navbar .ipsonea{
+  font-size: 2rem;
+  font-weight: 700;
+  color : white;
+  font-style: italic;
+  object-position: fixed;
+}
+
+.navbar .ipsonea span{
+  color : #b6895b;
+}
+
+.navbar-nav a{
+  font-weight: bold;
+  color : white;
+  display: flex;
+  flex-direction : row;
+  align-items: center;
+  margin : 0;
+  object-position: fixed;
+}
+
+.navbar .navbar-nav a:hover{
+  color : #b6895b;
+}
+
+.home{
+  padding: 143px 20px 20px 20px;
+}
+
+.kolom a{
+  color: #b6895b;
+}
+
+.kolom a span{
+  color: #b6895b;
+}
